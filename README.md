@@ -28,7 +28,3 @@ Created 3 promises:
 ### Demo links
 
 - [Demo](https://AndriiZakharenko.github.io/promises-practice/)
-
-### Reference Image
-
-<img src="example/object-tree.png" alt="reference image" width="200px" />
