@@ -1,30 +1,32 @@
-# Promises practice
+# Promises Practice
 
-### Description
+## 🎮 About the Project
+This project demonstrates the use of multiple promises with different behaviors:
+- **firstPromise**: 
+  - Resolves with a message "First promise was resolved" when the user clicks on the left side of the document.
+  - Rejects with a message "First promise was rejected" after 3 seconds if no click happens.
+- **secondPromise**: Resolves with a message "Second promise was resolved" when either left or right click is detected. This promise never rejects.
+- **thirdPromise**: Resolves with a message "Third promise was resolved" only after both left and right clicks occur.
 
-Created 3 promises:
-- The `firstPromise` returned
-  - **resolved** with a message `First promise was resolved` on a left `click` in the `document`
-  - **rejected** with a message `First promise was rejected` in 3 seconds if not clicked
-- The `secondPromise` returned
-  - **resolved** only on `left` or `right` click in the `document` with a message `Second promise was resolved`
-  - never **rejected**
-- The `thirdPromise` returned **resolved** with a message `Third promise was resolved` only after both `left` and `right` clicks happened
+## 🚀 Tech Stack
+- **HTML** (BEM methodology for structured markup)
+- **CSS** (For styling)
+- **JavaScript** (Handling promises)
 
-### Stack
+## 🛠️ Tools & Dependencies
+- **ESLint** – Ensuring code quality  
+- **Prettier** – Code formatting for readability  
+- **Cypress** – End-to-end testing  
+- **Mochawesome** – Test reporting  
+- **Parcel** – Web application bundler  
 
-- HTML (BEM)
-- CSS
-- JS
+## 📌 Features
+✅ Demonstrates promise resolution and rejection with different conditions  
+✅ Multiple user interactions to resolve/reject promises  
+✅ Click events triggering promise behavior  
 
-### Tools
+## 🌐 Demo
+🔗 [Live Demo](https://AndriiZakharenko.github.io/promises-practice/)
 
-- ESlint
-- Prettier
-- Cypress
-- Mochawesome
-- Parcel
-
-### Demo links
-
-- [Demo](https://AndriiZakharenko.github.io/promises-practice/)
+## 📜 License
+This project is forked from 💻 [Mate Academy](https://github.com/mate-academy/js_promises_practice_DOM)
